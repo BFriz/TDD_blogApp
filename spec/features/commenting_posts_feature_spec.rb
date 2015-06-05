@@ -9,7 +9,7 @@ describe 'Commenting' do
   it 'can add a comment to a post' do
     visit posts_path
     click_link 'Titsmagee'
-    click_link 'Add review'
+    click_link 'Add comment'
 
     # fill_in 'Content', with: 'where is this text going to go?' select 'Titsmagee', from: 'Name'
     # click_button 'Submit'

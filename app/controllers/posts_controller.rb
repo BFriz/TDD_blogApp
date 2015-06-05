@@ -1,14 +1,10 @@
-class PostsController < ApplicationController
+wclass PostsController < ApplicationController
   def index
     @posts = Post.all
   end
 
   def new
-    @posts = Post.all?
+    @posts = Post.all
   end
-
-  # def create
-  #   post = Post.new params[:post].permit
-# end
 
 end

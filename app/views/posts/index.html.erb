@@ -1,1 +1,7 @@
-manure
+
+<h3>POSTS</h3>
+<ul>
+<% @posts.each do |post| %>
+  <li><%= post.author %></li>
+<%end %>
+</ul>
